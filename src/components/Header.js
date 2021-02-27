@@ -4,7 +4,7 @@ const Header = () => {
         <div>
             <header>
                 <h3 class="version"><span class="versiontxt">v1.0</span></h3>
-                <h1 class="title-page"> Instagram Viral Content Finder</h1>
+                <h1 class="title-page"> IG Viral Content Finder</h1>
             </header>
             <head>
                 <title>
