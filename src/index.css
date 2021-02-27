@@ -29,17 +29,16 @@ code {
   color: #03363D;
   margin-top: 20px;
 }
-#titleContainer {
-  display: flex;
-  justify-content: space-between;
-}
+
 .version {
   color: #ffffff;
   font-size: smaller;
+  text-align: right;
+  margin-right: 5px;
 }
 .versiontxt  {
   background-color: #35B999;
-  padding: 10px 14px 10px 14px;
+  padding: 8px 14px 8px 14px;
   border-radius: 5vh;
 }
 .add-account {
@@ -66,12 +65,13 @@ code {
 }
 
 .add-account-submit {
-  padding: 8px 20px;
-  font-size: small;
+  padding: 10px 20px 10px 20px;
+  height: 40px;
+  font-size: smaller;
   outline: none;
   background-color: #35B999;
   border: none;
   color: white;
-  border-radius: 8vh;
+  border-radius: 5vh;
   margin-left: 10px;
 }
