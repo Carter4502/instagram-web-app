@@ -11,3 +11,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.account {
+  background: #f4f4f4;
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.title-page {
+  width: 100%;
+  text-align: center;
+  color: #03363D;
+  margin-top: 20px;
+}
+#titleContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.version {
+  color: #ffffff;
+  font-size: smaller;
+}
+.versiontxt  {
+  background-color: #35B999;
+  padding: 10px 14px 10px 14px;
+  border-radius: 5vh;
+}
+.add-account {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.add-account-sb {
+  text-align: center;
+  border-radius: 8vh;
+  width: 60%;
+  padding: 0px 10px;
+  border: none;
+  background-color: #F3F3F3;
+  margin-top: 25px;
+  height: 40px;
+  font-size: large;
+}
+.add-account-sb:focus {
+  outline: none;
+
+
+}
+
+.add-account-submit {
+  padding: 8px 20px;
+  font-size: small;
+  outline: none;
+  background-color: #35B999;
+  border: none;
+  color: white;
+  border-radius: 8vh;
+  margin-left: 10px;
+}
