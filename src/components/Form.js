@@ -1,6 +1,6 @@
 import {useState} from 'react'
 
-const Form = ({newAccount}) => {
+const Form = ({newAccount, accountExists}) => {
     const [text, setText] = useState("")
 
 
@@ -9,6 +9,11 @@ const Form = ({newAccount}) => {
         e.preventDefault()
         if (!text) {
             alert('Please type a username')
+            return
+        }
+        if (accountExists({text})) {
+            alert('This username has already been added.')
+            setText("")
             return
         }
         newAccount({text})

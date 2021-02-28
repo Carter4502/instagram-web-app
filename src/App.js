@@ -7,6 +7,15 @@ function App() {
   const [accounts, setAccounts] = useState([])
 
 
+  // check if account is present
+  const accountExists = (account) => {
+    for (var i = 0; i < accounts.length; i++) {
+      if (account.text === accounts[i].text) {
+        return true;
+      }
+    }
+    return false;
+  }
 
   // Add an account
 
@@ -18,7 +27,7 @@ function App() {
   return (
     <div>
       <Header />
-      <Form newAccount={addAccount}/>
+      <Form accountExists={accountExists} newAccount={addAccount}/>
       {accounts.length > 0 && <AccountList accounts={accounts} />}
     </div>
 
