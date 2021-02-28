@@ -29,6 +29,7 @@ code {
   padding: 2px 12px;
   cursor: pointer;
   width: 85%;
+  max-width: 500px;
   margin: 0, auto;
 }
 
