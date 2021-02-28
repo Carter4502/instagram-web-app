@@ -1,9 +1,12 @@
+import { FaTimes } from 'react-icons/fa'
 
 const Account = ({userName}) => {
     return (
-        <div>
-            <h2 class="account">{userName.text}</h2>
+        <center>
+        <div class="accountDiv">
+            <h2 class="account">@{userName.text}<FaTimes style={{color: "#ff6961", cursor: "pointer"}} /></h2>
         </div>
+        </center>
     )
 }
 

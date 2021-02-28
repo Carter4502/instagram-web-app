@@ -6,6 +6,7 @@
   font-family: "Axiforma-Book";
   src: url('/src/fonts/converted-files/Axiforma-Book.woff');
 }
+
 input {
   -webkit-appearance:none;
   }
@@ -23,12 +24,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.accountDiv {
+  background: #f4f4f4;;
+  padding: 2px 12px;
+  cursor: pointer;
+  width: 85%;
+  margin: 0, auto;
+  margin-top: 4px;
+  border-radius: 2vh;
+}
+
 
 .account {
-  background: #f4f4f4;
-  margin: 5px;
-  padding: 10px;
-  cursor: pointer;
+  color:#03363D;
+  text-align: center;
+  font-size: medium;
+  font-family: "Axiforma-Black";
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
 }
 
 .title-page {
