@@ -37,6 +37,7 @@ code {
   color: #03363D;
   font-family: "Axiforma-Black";
   margin-top: 20px;
+  font-size: x-large;
 }
 
 .version {
@@ -60,13 +61,12 @@ code {
 .add-account-sb {
   text-align: center;
   border-radius: 8vh;
-  width: 60%;
-  padding: 0px 10px;
+  width: 70%;
   border: none;
   background-color: #F3F3F3;
   margin-top: 25px;
   height: 40px;
-  font-size: large;
+  font-size: medium;
   font-family: "Axiforma-Book";
 }
 .add-account-sb:focus {
