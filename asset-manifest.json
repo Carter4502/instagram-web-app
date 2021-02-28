@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/instagram-web-app/static/css/main.6e1a0c39.chunk.css",
-    "main.js": "/instagram-web-app/static/js/main.f6aade72.chunk.js",
-    "main.js.map": "/instagram-web-app/static/js/main.f6aade72.chunk.js.map",
-    "runtime-main.js": "/instagram-web-app/static/js/runtime-main.d256fb4f.js",
-    "runtime-main.js.map": "/instagram-web-app/static/js/runtime-main.d256fb4f.js.map",
-    "static/js/2.d6cb5425.chunk.js": "/instagram-web-app/static/js/2.d6cb5425.chunk.js",
-    "static/js/2.d6cb5425.chunk.js.map": "/instagram-web-app/static/js/2.d6cb5425.chunk.js.map",
-    "static/js/3.e62f5992.chunk.js": "/instagram-web-app/static/js/3.e62f5992.chunk.js",
-    "static/js/3.e62f5992.chunk.js.map": "/instagram-web-app/static/js/3.e62f5992.chunk.js.map",
+    "main.css": "/instagram-web-app/static/css/main.cea312b1.chunk.css",
+    "main.js": "/instagram-web-app/static/js/main.bbd24899.chunk.js",
+    "main.js.map": "/instagram-web-app/static/js/main.bbd24899.chunk.js.map",
+    "runtime-main.js": "/instagram-web-app/static/js/runtime-main.44c66725.js",
+    "runtime-main.js.map": "/instagram-web-app/static/js/runtime-main.44c66725.js.map",
+    "static/js/2.f03f6805.chunk.js": "/instagram-web-app/static/js/2.f03f6805.chunk.js",
+    "static/js/2.f03f6805.chunk.js.map": "/instagram-web-app/static/js/2.f03f6805.chunk.js.map",
+    "static/js/3.2bd51bde.chunk.js": "/instagram-web-app/static/js/3.2bd51bde.chunk.js",
+    "static/js/3.2bd51bde.chunk.js.map": "/instagram-web-app/static/js/3.2bd51bde.chunk.js.map",
     "index.html": "/instagram-web-app/index.html",
-    "static/css/main.6e1a0c39.chunk.css.map": "/instagram-web-app/static/css/main.6e1a0c39.chunk.css.map",
-    "static/js/2.d6cb5425.chunk.js.LICENSE.txt": "/instagram-web-app/static/js/2.d6cb5425.chunk.js.LICENSE.txt",
+    "static/css/main.cea312b1.chunk.css.map": "/instagram-web-app/static/css/main.cea312b1.chunk.css.map",
+    "static/js/2.f03f6805.chunk.js.LICENSE.txt": "/instagram-web-app/static/js/2.f03f6805.chunk.js.LICENSE.txt",
     "static/media/index.css": "/instagram-web-app/static/media/Axiforma-Book.3dc8cb68.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.d256fb4f.js",
-    "static/js/2.d6cb5425.chunk.js",
-    "static/css/main.6e1a0c39.chunk.css",
-    "static/js/main.f6aade72.chunk.js"
+    "static/js/runtime-main.44c66725.js",
+    "static/js/2.f03f6805.chunk.js",
+    "static/css/main.cea312b1.chunk.css",
+    "static/js/main.bbd24899.chunk.js"
   ]
 }
