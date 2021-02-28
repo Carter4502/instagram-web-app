@@ -1,9 +1,9 @@
 import Account from './Account'
 
-const AccountList = ({accounts}) => {
+const AccountList = ({accounts, onDelete}) => {
     return (
         <div>
-            {accounts.map((account) => <Account key= {account.id} userName={account} />)}
+            {accounts.map((account) => <Account onDelete={onDelete} key= {account.id} account={account} />)}
         </div>
     )
 }

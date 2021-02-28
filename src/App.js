@@ -20,10 +20,16 @@ function App() {
   // Add an account
 
   const addAccount = (account) => {
-    const id = Math.floor(Math.random * 10000) + 1
+    const id = Math.floor(Math.random() * 10000) + 1
     account.text = account.text.toLowerCase()
-    const newAccount = {id,...account}
+    const newAccount = {id, ...account}
     setAccounts([newAccount, ...accounts])
+  }
+
+  // delete an account
+
+  const deleteAccount = (id) => {
+    setAccounts(accounts.filter((account) => account.id !== id))
   }
   return (
     <div class="mainDiv">
@@ -31,7 +37,7 @@ function App() {
       <Form accountExists={accountExists} newAccount={addAccount}/>
 
       {accounts.length > 0 && <div class="btnDiv"><button id='analyze'>Analyze</button></div>}
-      {accounts.length > 0 && <AccountList accounts={accounts} />}
+      {accounts.length > 0 && <AccountList accounts={accounts} onDelete={deleteAccount}/>}
     </div>
 
 
