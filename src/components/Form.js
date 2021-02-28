@@ -17,7 +17,7 @@ const Form = ({newAccount}) => {
     return (
         <div>
             <form class="add-account" onSubmit={onSubmit}>
-                <input placeholder="add an instagram account..." class='add-account-sb' value={text} type="text" onChange={(e) => setText(e.target.value)}></input>
+                <input placeholder="type an account name" class='add-account-sb' value={text} type="text" onChange={(e) => setText(e.target.value)}></input>
                 <input class='add-account-submit' type="submit" value="Add"></input>
             </form>
         </div>

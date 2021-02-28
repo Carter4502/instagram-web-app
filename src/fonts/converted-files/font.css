@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Axiforma-Black';
+  src: url('Axiforma-Black.eot');
+  src: url('Axiforma-Black.eot?#iefix') format('embedded-opentype'),
+       url('Axiforma-Black.svg#Axiforma-Black') format('svg'),
+       url('Axiforma-Black.ttf') format('truetype'),
+       url('Axiforma-Black.woff') format('woff'),
+       url('Axiforma-Black.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

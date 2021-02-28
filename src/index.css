@@ -27,6 +27,7 @@ code {
   width: 100%;
   text-align: center;
   color: #03363D;
+  font-family: "Axiforma Black";
   margin-top: 20px;
 }
 
@@ -35,6 +36,7 @@ code {
   font-size: smaller;
   text-align: right;
   margin-right: 5px;
+  font-family: "Axiforma";
 }
 .versiontxt  {
   background-color: #35B999;
@@ -57,6 +59,7 @@ code {
   margin-top: 25px;
   height: 40px;
   font-size: large;
+  font-family: "Axiforma";
 }
 .add-account-sb:focus {
   outline: none;
@@ -69,9 +72,11 @@ code {
   height: 40px;
   font-size: smaller;
   outline: none;
+  font-weight: bold;
   background-color: #35B999;
   border: none;
   color: white;
   border-radius: 5vh;
   margin-left: 10px;
+  font-family: "Axiforma";
 }
