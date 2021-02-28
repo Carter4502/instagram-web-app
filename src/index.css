@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Axiforma-Black";
+  src: url('/src/fonts/converted-files/Axiforma-Black.ttf');
+}
+@font-face {
+  font-family: "Axiforma-Book";
+  src: url('/src/fonts/converted-files/Axiforma-Book.woff');
+}
 input {
   -webkit-appearance:none;
   }
@@ -27,7 +35,7 @@ code {
   width: 100%;
   text-align: center;
   color: #03363D;
-  font-family: "Axiforma Black";
+  font-family: "Axiforma-Black";
   margin-top: 20px;
 }
 
@@ -36,7 +44,7 @@ code {
   font-size: smaller;
   text-align: right;
   margin-right: 5px;
-  font-family: "Axiforma";
+  font-family: "Axiforma-Black";
 }
 .versiontxt  {
   background-color: #35B999;
@@ -59,7 +67,7 @@ code {
   margin-top: 25px;
   height: 40px;
   font-size: large;
-  font-family: "Axiforma";
+  font-family: "Axiforma-Book";
 }
 .add-account-sb:focus {
   outline: none;
@@ -78,5 +86,5 @@ code {
   color: white;
   border-radius: 5vh;
   margin-left: 10px;
-  font-family: "Axiforma";
+  font-family: "Axiforma-Book";
 }
