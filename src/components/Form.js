@@ -12,7 +12,7 @@ const Form = ({newAccount, accountExists}) => {
             return
         }
         if (accountExists({text})) {
-            alert('This username has already been added.')
+            alert(text + ' has already been added.');
             setText("")
             return
         }
