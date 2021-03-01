@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/instagram-web-app/static/css/main.744924a7.chunk.css",
+    "main.css": "/instagram-web-app/static/css/main.53ef8376.chunk.css",
     "main.js": "/instagram-web-app/static/js/main.781bf255.chunk.js",
     "main.js.map": "/instagram-web-app/static/js/main.781bf255.chunk.js.map",
     "runtime-main.js": "/instagram-web-app/static/js/runtime-main.44c66725.js",
@@ -10,14 +10,14 @@
     "static/js/3.2bd51bde.chunk.js": "/instagram-web-app/static/js/3.2bd51bde.chunk.js",
     "static/js/3.2bd51bde.chunk.js.map": "/instagram-web-app/static/js/3.2bd51bde.chunk.js.map",
     "index.html": "/instagram-web-app/index.html",
-    "static/css/main.744924a7.chunk.css.map": "/instagram-web-app/static/css/main.744924a7.chunk.css.map",
+    "static/css/main.53ef8376.chunk.css.map": "/instagram-web-app/static/css/main.53ef8376.chunk.css.map",
     "static/js/2.f03f6805.chunk.js.LICENSE.txt": "/instagram-web-app/static/js/2.f03f6805.chunk.js.LICENSE.txt",
     "static/media/index.css": "/instagram-web-app/static/media/Axiforma-Book.3dc8cb68.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.44c66725.js",
     "static/js/2.f03f6805.chunk.js",
-    "static/css/main.744924a7.chunk.css",
+    "static/css/main.53ef8376.chunk.css",
     "static/js/main.781bf255.chunk.js"
   ]
 }
