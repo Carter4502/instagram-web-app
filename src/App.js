@@ -35,9 +35,9 @@ function App() {
     <div class="mainDiv">
       <Header />
       <Form accountExists={accountExists} newAccount={addAccount}/>
-
-      {accounts.length > 0 && <div class="btnDiv"><button id='analyze'>Analyze</button></div>}
       {accounts.length > 0 && <AccountList accounts={accounts} onDelete={deleteAccount}/>}
+      <div class="btnDiv"><button id={accounts.length > 0 ? 'analyze1':'analyze2'}>Find Content</button></div>
+
     </div>
 
 

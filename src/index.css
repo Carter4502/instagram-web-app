@@ -35,21 +35,34 @@ code {
   margin: 0, auto;
 }
 
-#analyze {
-  padding: 10px 20px 10px 20px;
+#analyze1 {
+  padding: 10px 10px;
   height: 40px;
-  width: 100px;
+  width: 130px;
   font-size: smaller;
   outline: none;
   font-weight: bold;
   background-color:#03363D;
   border: none;
-  color: white;
-  border-radius: 5vh;
+  color:#ffffff;
   font-family: "Axiforma-Black";
+  margin-top: 20px;
   margin-bottom: 20px;
-
 }
+#analyze2 {
+  padding: 10px 20px 10px 20px;
+  height: 40px;
+  width: 130px;
+  font-size: smaller;
+  outline: none;
+  font-weight: bold;
+  background-color:#f2f2f2;
+  border: none;
+  color: #828282;
+  font-family: "Axiforma-Book";
+}
+
+
 .btnDiv {
   display: flex;
   justify-content: center;
@@ -90,7 +103,7 @@ code {
 .add-account {
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 .add-account-sb {
