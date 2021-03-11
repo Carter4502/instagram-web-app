@@ -1,7 +1,8 @@
 
-const ContentButton = ({accounts, setForm}) => {
+const ContentButton = ({accounts, setForm, setLoading}) => {
     function prepData() {
         setForm(false);
+        setLoading(true);
     }
     return (
         <div class="btnDiv">

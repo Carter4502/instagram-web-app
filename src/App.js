@@ -7,7 +7,7 @@ import LoadingIcon from './components/LoadingIcon.js'
 function App() {
   const [accounts, setAccounts] = useState([])
   const [showForm, setForm] = useState(true)
-
+  const [showLoading, setLoading] = useState(false)
   // check if account is present
   const accountExists = (account) => {
     for (var i = 0; i < accounts.length; i++) {
@@ -37,8 +37,8 @@ function App() {
       <Header />
       {showForm && <Form accountExists={accountExists} newAccount={addAccount}/>}
       {accounts.length > 0 && <AccountList accounts={accounts} onDelete={deleteAccount}/>}
-      {showForm && <ContentButton accounts={accounts} setForm={setForm}/>}
-      <LoadingIcon />
+      {showForm && <ContentButton accounts={accounts} setForm={setForm} setLoading={setLoading}/>}
+      {showLoading && <LoadingIcon />}
     </div>
 
 
