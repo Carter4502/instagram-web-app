@@ -36,7 +36,7 @@ function App() {
     <div class="mainDiv">
       <Header />
       {showForm && <Form accountExists={accountExists} newAccount={addAccount}/>}
-      {accounts.length > 0 && <AccountList accounts={accounts} onDelete={deleteAccount}/>}
+      {(accounts.length > 0 && showForm) && <AccountList accounts={accounts} onDelete={deleteAccount}/>}
       {showForm && <ContentButton accounts={accounts} setForm={setForm} setLoading={setLoading}/>}
       {showLoading && <LoadingIcon />}
     </div>
