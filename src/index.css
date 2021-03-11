@@ -9,6 +9,16 @@
   src: url('/src/fonts/converted-files/Axiforma-Book.woff');
 }
 
+@media screen and (max-width: 568px) {
+  .addMargin {
+    margin-top: 20%;
+  }
+}
+
+.addMargin {
+  margin-top: 10%;
+}
+
 input {
   -webkit-appearance:none;
   }
@@ -64,6 +74,10 @@ code {
 
 
 .btnDiv {
+  display: flex;
+  justify-content: center;
+}
+#loadingDiv {
   display: flex;
   justify-content: center;
 }

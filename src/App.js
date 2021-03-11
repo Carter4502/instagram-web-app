@@ -1,11 +1,12 @@
 import Header from './components/Header'
 import AccountList from './components/AccountList'
 import Form from './components/Form.js'
+import ContentButton from './components/ContentButton.js'
 import {useState} from 'react'
-
+import LoadingIcon from './components/LoadingIcon.js'
 function App() {
   const [accounts, setAccounts] = useState([])
-
+  const [showForm, setForm] = useState(true)
 
   // check if account is present
   const accountExists = (account) => {
@@ -34,10 +35,10 @@ function App() {
   return (
     <div class="mainDiv">
       <Header />
-      <Form accountExists={accountExists} newAccount={addAccount}/>
+      {showForm && <Form accountExists={accountExists} newAccount={addAccount}/>}
       {accounts.length > 0 && <AccountList accounts={accounts} onDelete={deleteAccount}/>}
-      <div class="btnDiv"><button id={accounts.length > 0 ? 'analyze1':'analyze2'}>Find Content</button></div>
-
+      {showForm && <ContentButton accounts={accounts} setForm={setForm}/>}
+      <LoadingIcon />
     </div>
 
 
