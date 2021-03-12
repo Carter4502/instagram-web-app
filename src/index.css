@@ -36,6 +36,25 @@ code {
   max-width: 500px;
   margin: 0, auto;
 }
+.postDiv {
+  background: #f4f4f4;;
+  padding: 40px;
+  cursor: pointer;
+  width: 85%;
+  max-width: 500px;
+  margin-top: 3px;
+}
+.post {
+  color:#03363D;
+  font-size: 10px;
+  font-family: "Axiforma-Book";
+  display: flex;
+  float: right;
+}
+.postIMG {
+  height: 100px;
+  width: 100px;
+}
 
 #analyze1 {
   padding: 10px 10px;
