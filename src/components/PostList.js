@@ -2,7 +2,7 @@ import Post from './Post'
 
 const PostList = ({postList}) => {
     return (
-        <div>
+        <div className="cards">
            {postList.map((post) => <Post post={post} />)}
         </div>
     )

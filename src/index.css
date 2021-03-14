@@ -39,10 +39,16 @@ code {
   margin: 0, auto;
 }
 
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 .postDiv {
   background: rgba(53, 185, 153, 0.4);
-  width: 50%;
-  height: 70vh;
+  width: 400px;
+  height: 600px;
   border-radius: 10px;
   cursor: pointer;
   margin-bottom: 5%;
@@ -96,6 +102,7 @@ code {
 }
 
 .postIMG {
+  margin-top: 100px;
   max-width: 60%;
   height: 60%;
   grid-area: postIMG;
@@ -155,7 +162,7 @@ code {
   text-align: center;
   color: #03363D;
   font-family: "Axiforma-Black";
-  margin-top: 20px;
+  margin: 50px 0;
   font-size: x-large;
 }
 
