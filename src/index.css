@@ -40,12 +40,12 @@ code {
 }
 
 .postDiv {
-  background: grey;
+  background: rgba(53, 185, 153, 0.4);
   width: 50%;
-  height: 60vh;
+  height: 70vh;
   border-radius: 10px;
   cursor: pointer;
-  margin: 5% auto;
+  margin-bottom: 5%;
   font-family: 'Axiforma-Book';
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -62,6 +62,7 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
+  grid-area: postLink;
 }
 
 .postLink:hover{
@@ -80,20 +81,24 @@ code {
   align-items: center;
   font-size: 1.2rem;
   color: #03363D;
+  padding: 5%;
+  grid-area: postLikes;
 }
 
 .postScore {
   color:#03363D;
-  font-size: 10px;
+  font-size: 1.2rem;
   font-family: "Axiforma-Book";
   display: flex;
   justify-content: center;
   align-items: center;
+  grid-area: postScore;
 }
 
 .postIMG {
-  width: 60%;
+  max-width: 60%;
   height: 60%;
+  grid-area: postIMG;
 }
 
 #analyze1 {
