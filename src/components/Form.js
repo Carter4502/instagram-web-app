@@ -21,7 +21,7 @@ const Form = ({newAccount, accountExists}) => {
     }
     return (
         <div>
-            <form class="add-account" onSubmit={onSubmit}>
+            <form className="add-account" onSubmit={onSubmit}>
                 <input autoComplete="off" autoCorrect="off" autoCapitalize="off" spellCheck="false" placeholder="type an account name" className='add-account-sb' value={text} type="text" onChange={(e) => setText(e.target.value)}></input>
                 <input className='add-account-submit' type="submit" value="Add"></input>
             </form>

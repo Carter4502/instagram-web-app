@@ -39,7 +39,7 @@ function App() {
     setAccounts(accounts.filter((account) => account.id !== id))
   }
   return (
-    <div class="mainDiv">
+    <div className="mainDiv">
       <Header />
       {showForm && <Form accountExists={accountExists} newAccount={addAccount}/>}
       {(accounts.length > 0 && showForm) && <AccountList accounts={accounts} onDelete={deleteAccount}/>}

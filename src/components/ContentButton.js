@@ -13,7 +13,10 @@ const ContentButton = ({accounts, setForm, setLoading, setPostVisible, setViralP
             postArray.push({
                 'id': "www.instagram.com/p/" + jsonNeeded[i].node.shortcode,
                 'likes': jsonNeeded[i].node.edge_media_preview_like.count,
-                'imgURL': jsonNeeded[i].node.display_url
+                'imgURL': jsonNeeded[i].node.display_url,
+                'comments': jsonNeeded[i].node.edge_media_to_comment.count,
+                'time': jsonNeeded[i].node.taken_at_timestamp,
+                'user': userName
             })
           }
           sum /= 12;
@@ -67,7 +70,7 @@ const ContentButton = ({accounts, setForm, setLoading, setPostVisible, setViralP
     }
 
     return (
-        <div class="btnDiv">
+        <div className="btnDiv">
             <button id={accounts.length > 0 ? 'analyze1':'analyze2'} onClick={() => prepData()}>
                 Find Content
             </button>

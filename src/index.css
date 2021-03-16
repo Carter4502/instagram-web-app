@@ -36,26 +36,6 @@ code {
   max-width: 500px;
   margin: 0, auto;
 }
-.postDiv {
-  background: #f4f4f4;;
-  padding: 40px;
-  cursor: pointer;
-  width: 85%;
-  max-width: 500px;
-  margin-top: 3px;
-}
-.post {
-  color:#03363D;
-  font-size: 10px;
-  font-family: "Axiforma-Book";
-  display: flex;
-  float: right;
-}
-.postIMG {
-  height: 100px;
-  width: 100px;
-}
-
 #analyze1 {
   padding: 10px 10px;
   height: 40px;
@@ -162,4 +142,74 @@ code {
   border-radius: 5vh;
   margin-left: 10px;
   font-family: "Axiforma-Black";
+}
+.postDiv {
+  background: #eeeeee;
+  height: 60vh;
+  cursor: pointer;
+  width: 500px;
+  margin-top: 20px;
+}
+.link {
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px;
+  background-color: #35B999;
+  border-radius: 6px;
+  font-size: 18px;
+  font-family: "Axiforma-Black";
+}
+.textDiv {
+  display: flex;
+  justify-content: space-evenly;
+}
+.col {
+  flex: 1;
+  margin: auto;
+}
+.rowElement {
+  font-size: 15px;
+  font-family: "Axiforma-Book";
+}
+.postScore {
+
+}
+.postLink {
+  
+}
+.postLikes {
+
+}
+.comments {
+
+}
+.time {
+  font-size: 15px;
+}
+.iconRow {
+  vertical-align: -2px;
+  margin-right: 2px;
+}
+.postIMG {
+  margin-top: 3vh;
+  height: 40vh;
+  width: 40vh;
+  display: flex;
+}
+.allign {
+  display: flex;
+}
+@media only screen and (max-width: 600px) {
+  .postDiv {
+    max-width: 320px;
+    height: 50vh;
+  }
+  .postIMG {
+    margin-top: 2vh;
+    height: 30vh;
+    width: 30vh;
+  }
+  .rowElement {
+    font-size: 12px;
+  }
 }
