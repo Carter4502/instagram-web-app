@@ -143,12 +143,16 @@ code {
   margin-left: 10px;
   font-family: "Axiforma-Black";
 }
+.titleLink {
+  text-decoration: none;
+}
 .postDiv {
   background: #eeeeee;
   height: 60vh;
   cursor: pointer;
   width: 500px;
   margin-top: 20px;
+  border-radius: 30px;
 }
 .link {
   color: white;
@@ -171,24 +175,12 @@ code {
   font-size: 15px;
   font-family: "Axiforma-Book";
 }
-.postScore {
-
-}
-.postLink {
-  
-}
-.postLikes {
-
-}
-.comments {
-
-}
 .time {
   font-size: 15px;
 }
 .iconRow {
   vertical-align: -2px;
-  margin-right: 2px;
+  margin-right: 6px;
 }
 .postIMG {
   margin-top: 3vh;
