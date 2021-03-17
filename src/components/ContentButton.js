@@ -66,7 +66,14 @@ const ContentButton = ({accounts, setForm, setLoading, setPostVisible, setViralP
         }
         setViralPosts(masterList);
         setLoading(false);
-        setPostVisible(true); 
+        if (masterList.length >= 1) {
+            setPostVisible(true); 
+        } else {
+            setLoading(false);
+            setAccounts([]);
+            setForm(true);
+            alert("No posts found, please add more accounts or try again later.")
+        }
     }
 
     return (
