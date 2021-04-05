@@ -3,7 +3,7 @@ const ContentButton = ({accounts, setForm, setLoading, setPostVisible, setViralP
 
     async function getJsonData(userName) {
         try {
-          let response = await fetch('https://mycorsproxy-112.herokuapp.com/https://www.instagram.com/' + userName + '/channel/?__a=1');
+          let response = await fetch('https://api.allorigins.win/raw?url=https://www.instagram.com/' + userName + '/channel/?__a=1');
           let responseJson = await response.json();
           var jsonNeeded = responseJson.graphql.user.edge_owner_to_timeline_media.edges;
           var postArray = [];
