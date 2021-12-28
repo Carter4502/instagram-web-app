@@ -1,5 +1,5 @@
 # Instagram Viral Content Web App
-> This program will help your theme page go viral on Instagram. [Check it out here](https://carter4502.github.io/instagram-web-app/) 🌎
+> This program will help your theme page go viral on Instagram. 🌎
 
 ![](https://github.com/Carter4502/instagram-web-app/blob/gh-pages/Hnet-image.gif)
 
